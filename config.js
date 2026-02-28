@@ -17,10 +17,10 @@
 
 const mysql = require('mysql2/promise');
 const db = mysql.createPool({
-    host: 'hopper.proxy.rlwy.net',
-    port: 28132,
+    host: 'shortline.proxy.rlwy.net',
+    port: 29437,
     user: 'root',
-    password: 'llSVXJrdrLBLODrhpXBDnrplWUHTdeog',
+    password: 'WbxwDVxNDEmmKRJycNJjnlTbQIXOnhGF',
     database: 'railway',
     waitForConnections: true,
     connectionLimit: 10,
@@ -28,6 +28,8 @@ const db = mysql.createPool({
 });
 console.warn('✅ Connected to Railway MySQL');
 module.exports = db;
+
+
 
 
 
