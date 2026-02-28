@@ -72,7 +72,7 @@ const allowedOrigins = [
   'https://sage-mandazi-ffd09f.netlify.app',
  'https://alomcare.co.uk',
  'https://property.kiaantechnology.com',
- 'http://ss-propert-demo.kiaantechnology.com'
+ 'https://ss-propert-demo.kiaantechnology.com',
 ];
 
 app.use(
