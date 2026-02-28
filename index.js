@@ -71,7 +71,8 @@ const allowedOrigins = [
   'https://buyer-seller-crm.netlify.app',
   'https://sage-mandazi-ffd09f.netlify.app',
  'https://alomcare.co.uk',
- 'https://property.kiaantechnology.com'
+ 'https://property.kiaantechnology.com',
+ 'http://ss-propert-demo.kiaantechnology.com'
 ];
 
 app.use(
